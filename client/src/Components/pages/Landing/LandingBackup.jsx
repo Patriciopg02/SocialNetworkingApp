@@ -90,7 +90,6 @@ const LandingPage = () => {
       </Grid>
     </ThemeProvider>
   );
-  
 }
 
 export default LandingPage
