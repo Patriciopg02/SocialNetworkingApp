@@ -100,7 +100,7 @@ export default function CreatePost({profileUser}) {
     })
     setTimeout(() => {
       window.location.href = window.location.href;
-    }, 1000)
+    }, 2000)
   };
 
   const body = (
