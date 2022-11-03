@@ -42,18 +42,12 @@ export default function AboutUs() {
 
 
   useEffect(()=>{
-
     const Config = {
-      method: "get",
+      method: 'get',
       baseURL: `${process.env.REACT_APP_MY_API_URL}/opinions/getAllOpinions`,
     }
     axios(Config).then(res => setOpinions(res.data))
 },[dispatch])
-
-    };
-    axios(Config).then((res) => setOpinions(res.data));
-  }, [dispatch]);
-  //console.log(opinios)
 
 
   const [opinion, setOpinion] = useState({
