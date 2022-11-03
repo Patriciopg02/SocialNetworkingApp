@@ -52,7 +52,7 @@ function Chat() {
     socket.emit("message", message);
     const newMessage = {
       body: message,
-      from: user.displayName,
+      from: userP.name,
     };
     setMessage("");
     setMessages([newMessage, ...messages]);
