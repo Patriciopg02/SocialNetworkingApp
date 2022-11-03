@@ -70,7 +70,7 @@ export default function AboutUs() {
 
     if (opinion.text !== '') {
 
-      dispatch(newOpinion(token, opinion));
+      dispatch(newOpinion(opinion));
       setOpinion({
         authorOpinion: user.email,
         avatar: user.image,
